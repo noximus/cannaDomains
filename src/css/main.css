@@ -285,7 +285,17 @@ textarea {
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #78bc43;
+}
+
+.orange {
+    color: #ea5229;
+}
+.green {
+    color: #78bc43;
+}
+.purple {
+    color: #6d325e;
 }
 
 /* Custom default button */
@@ -319,6 +329,10 @@ body {
 
 .cover-container {
   max-width: 42em;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center 150px;
+  background-size: 50%;
 }
 
 
@@ -374,6 +388,7 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+  
 }
 
 
@@ -382,5 +397,9 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.inputTag {
+  color: #6d325e;
 }
 

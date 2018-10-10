@@ -12,6 +12,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -26,29 +27,63 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand">Canna Domain</h3>
-        <!-- <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Contact</a>
-        </nav> -->
+        <h3 class="masthead-brand purple">{Current Domain}</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <p>
+            <i class="fab fa-twitter-square fa-2x green"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fab fa-facebook-square fa-2x green"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fab fa-instagram fa-2x green"></i>&nbsp;&nbsp;&nbsp;
+          </p>
+        </nav>
       </div>
     </header>
 
     <main role="main" class="inner cover">
-      <h1 class="cover-heading">Search for Domain</h1>
-      <p class="lead">Search through our listing of hundreds of Domain names to find the perfect one for you!</p>
+      <h1 class="cover-heading green">Search for Domain</h1>
+      <p class="lead green">Search through our listing of hundreds of Domain names to find the perfect one for you!</p>
       <p class="lead form-group">
-        <input type="text" name="test" class="form-control" value="Search Domain Here">
-
+        <input type="text" name="test" class="form-control inputTag" value="Search Domain Here">
       </p>
+      <div>
+        <table class="table green">
+          <caption class="purple">* footer note List of users</caption>
+          <thead class="orange">
+            <tr>
+              <th scope="col">Domain</th>
+              <th scope="col">Price</th>
+              <th scope="col">Hits</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Canna</td>
+              <td>Domains</td>
+              <td>.com</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>250</td>
+              <td>250</td>
+              <td>150</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>60% of Lorem Ispum Server Concat</td>
+              <td>70% of Lorem Ispum Server Concat</td>
+              <td>50%  of Lorem Ispum Server Concat</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
 
-    <footer class="mastfoot mt-auto">
+    <!-- <footer class="mastfoot mt-auto">
       <div class="inner">
-        <p>Created by Pixel Rock Studios.</p>
+        <p>Created by <a href="http://www.interactivenerd.com" target="_blank">Interactive Nerd</a>. <i class="fab fa-twitter-square fa-2x"></i> <i class="fab fa-facebook-square fa-2x"></i> <i class="fab fa-instagram fa-2x"></i></p>
       </div>
-    </footer>
+    </footer> -->
   </div>
 
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
